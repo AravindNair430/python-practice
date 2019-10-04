@@ -4,7 +4,7 @@
 # print("   / |")
 # print("  /  |")
 # print(" /   |")
-# print("/____|")
+# print("//____|")
 
 # character_name="Jojo"
 # character_age="30"
