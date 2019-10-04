@@ -9,7 +9,7 @@
 # character_name="Jojo"
 # character_age="30"
 # print("There was a man named "+character_name+",")
-# print("He was "+character_age+" years old")
+# print("H was "+character_age+" years old")
 
 # WORKING WITH STRINGS
 
