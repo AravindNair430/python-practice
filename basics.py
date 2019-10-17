@@ -44,8 +44,6 @@
 # print(sqrt(3.7))
 
 #  INPUT FROM USER
-#
-#
 # name=input("Enter your name: ")
 # print("Hello Mr."+name)
 
@@ -104,7 +102,6 @@
 # is_genius = False
 # is_high_score = False
 #
-#
 # if is_genius and is_high_score :
 #     print("Congratulations, you just survived the bashing from the teachers")
 # elif is_genius and not(is_high_score):
@@ -149,10 +146,10 @@ import numpy as np
 #
 # for e in L:
 #     print (e)
-#
+
 # for e in A:
 #     print (e)
-#
+
 # print(A+A)
 # print(2*A)
 # print(2*L)
@@ -161,25 +158,25 @@ import numpy as np
 
 # a=np.array([1, 2])
 # b=np.array([2, 1])
-#
+
 # dot=0
-#
+
 # for e,f in zip(a,b):
 #     dot+=e*f
-#
+
 # print(dot)
 # print(a*b)
 # print(np.sum(a*b))
 # print(np.dot(a,b))
-#
+
 # amag=np.sqrt(np.sum(a*a))
 # print(amag)
-#
+
 # print(np.linalg.norm(a))
-#
+
 # cosangle= np.dot(a,b)/(np.linalg.norm(a)*np.linalg.norm(b))
 # print(cosangle)
-#
+
 # angle=np.arccos(cosangle)
 # print(angle)
 
@@ -190,7 +187,7 @@ import numpy as np
 #
 # print(L[0][0])
 # print(M)
-#
+
 # print(M[0,0])
 # M2=np.matrix(M)
 # print(M2)
@@ -210,7 +207,7 @@ import numpy as np
 # A=np.array([[1, 2],[3, 4]])
 # Ainv=np.linalg.inv(A)
 # print (Ainv)
-#
+
 # print(Ainv.dot(A))
 # print(np.linalg.det(A))
 # print(np.diag(A))
@@ -234,23 +231,23 @@ X = []
 #     row = line.split(',')
 #     sample = map(float, row)
 #     X.append(sample)
-#
+
 # print (X)
 #
 # X=np.array(X)
-#
+
 # print(X)
 
 import pandas as pd
 
 # X=pd.read_csv("data_2d.csv", header=None)
-# # print(type(X))
-# #
-# #
-# # print(X.head(10))
-#
-#
-# # M=X.as_matrix(X)
+# print(type(X))
+
+
+# print(X.head(10))
+
+
+# M=X.as_matrix(X)
 # print(X[0])
 # print(X.iloc[0])
 # print(X[[0, 2]])
@@ -259,9 +256,9 @@ import pandas as pd
 
 
 # df=pd.read_csv("international-airline-passengers.csv", engine="python", skipfooter=3)
-#
+
 # df['ones'] = 1
-#
+
 # df.columns = ["month", "passengers"]
 
 
@@ -271,7 +268,7 @@ import pandas as pd
 # t2=pd.read_csv("table2.csv" )
 # print(t1)
 # print(t2)
-#
+
 # m=pd.merge(t1,t2,on="user_id")
 # print(m)
 # print(t1.merge(t2, on="user_id"))
@@ -280,7 +277,7 @@ import pandas as pd
 #MATPLOTLIB
 
 import matplotlib.pyplot as plt
-#
+
 # x=np.linspace(0,10,10)
 # y=np.sin(x)
 # plt.plot(x,y)
@@ -295,17 +292,16 @@ import matplotlib.pyplot as plt
 # A = pd.read_csv("data_1d.csv", header=None).as_matrix()
 # x=A[:,0]
 # y=A[:,1]
-# # plt.scatter(x,y)
-# # plt.show()
-# #
-# #
-# # x_line=np.linspace(0,100,100)
-# # y_line=2*x_line+1
-# #
-# # plt.scatter(x,y)
-# # plt.plot(x_line,y_line)
-# # plt.show()
-#
+# plt.scatter(x,y)
+# plt.show()
+
+# x_line=np.linspace(0,100,100)
+# y_line=2*x_line+1
+
+# plt.scatter(x,y)
+# plt.plot(x_line,y_line)
+# plt.show()
+
 # plt.hist(x,  bins=20)
 # plt.show()
 
